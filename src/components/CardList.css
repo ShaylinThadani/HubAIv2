@@ -1,0 +1,66 @@
+.card-list {
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+h1 {
+  text-align: center;
+}
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+filter-buttons label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 16px;
+  cursor: pointer;
+}
+.filter-buttons input[type='checkbox'] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin-right: 0.25rem; /* Add this line to create more space */
+}
+.filter-buttons input[type='checkbox']:checked {
+  background-color: #000;
+  border-color: #000;
+}
+
+.filter-buttons input[type='checkbox']:checked::before {
+  content: '\2713';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
