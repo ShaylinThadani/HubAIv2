@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/HubAI/static/css/main.6df99a29.chunk.css",
+    "main.js": "/HubAI/static/js/main.eebb85b5.chunk.js",
+    "main.js.map": "/HubAI/static/js/main.eebb85b5.chunk.js.map",
+    "runtime-main.js": "/HubAI/static/js/runtime-main.5b2e6c1d.js",
+    "runtime-main.js.map": "/HubAI/static/js/runtime-main.5b2e6c1d.js.map",
+    "static/js/2.08b0945d.chunk.js": "/HubAI/static/js/2.08b0945d.chunk.js",
+    "static/js/2.08b0945d.chunk.js.map": "/HubAI/static/js/2.08b0945d.chunk.js.map",
+    "index.html": "/HubAI/index.html",
+    "precache-manifest.b4f8544b6534a931250d29b380010ba9.js": "/HubAI/precache-manifest.b4f8544b6534a931250d29b380010ba9.js",
+    "service-worker.js": "/HubAI/service-worker.js",
+    "static/css/main.6df99a29.chunk.css.map": "/HubAI/static/css/main.6df99a29.chunk.css.map",
+    "static/js/2.08b0945d.chunk.js.LICENSE.txt": "/HubAI/static/js/2.08b0945d.chunk.js.LICENSE.txt",
+    "static/media/Imagen.jpg": "/HubAI/static/media/Imagen.01ff060d.jpg",
+    "static/media/bard.jpg": "/HubAI/static/media/bard.d8f09977.jpg",
+    "static/media/canva.jpg": "/HubAI/static/media/canva.b715ecc6.jpg",
+    "static/media/chatgpt.jpg": "/HubAI/static/media/chatgpt.e51871da.jpg",
+    "static/media/img-1.jpg": "/HubAI/static/media/img-1.6b7fbd75.jpg",
+    "static/media/img-2.jpg": "/HubAI/static/media/img-2.18bace2b.jpg",
+    "static/media/img-3.jpg": "/HubAI/static/media/img-3.764db554.jpg",
+    "static/media/img-4.jpg": "/HubAI/static/media/img-4.e1d77c95.jpg",
+    "static/media/img-5.jpg": "/HubAI/static/media/img-5.6ad20418.jpg",
+    "static/media/img-6.jpg": "/HubAI/static/media/img-6.277fcc74.jpg",
+    "static/media/midjourney.jpg": "/HubAI/static/media/midjourney.77dcb0bc.jpg",
+    "static/media/picsart.jpg": "/HubAI/static/media/picsart.5432e90e.jpg",
+    "static/media/starry.jpg": "/HubAI/static/media/starry.0925f6bf.jpg",
+    "static/media/talkai.jpg": "/HubAI/static/media/talkai.83f20e7d.jpg",
+    "static/media/video-1.mp4": "/HubAI/static/media/video-1.337c4559.mp4",
+    "static/media/video-2.mp4": "/HubAI/static/media/video-2.d12455f2.mp4",
+    "static/media/video-3.mp4": "/HubAI/static/media/video-3.747de036.mp4",
+    "static/media/wombo.jpg": "/HubAI/static/media/wombo.2673d841.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b2e6c1d.js",
+    "static/js/2.08b0945d.chunk.js",
+    "static/css/main.6df99a29.chunk.css",
+    "static/js/main.eebb85b5.chunk.js"
+  ]
+}

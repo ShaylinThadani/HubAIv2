@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/support' component={Support} />
-          <Route path='/learning-hub' component={LearningHub} />
-          <Route path='/library' component={Library} />
+          <Route path='/HubAI/' exact component={Home} />
+          <Route path='/HubAI/support' component={Support} />
+          <Route path='/HubAI/learning-hub' component={LearningHub} />
+          <Route path='/HubAI/library' component={Library} />
         </Switch>
       </Router>
     </>
