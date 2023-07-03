@@ -20,18 +20,18 @@ function Navbar() {
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/HubAI/' className='nav-links' onClick={handleClick}>
+              <Link to='/' className='nav-links' onClick={handleClick}>
                 Home
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/HubAI/support' className='nav-links' onClick={handleClick}>
+              <Link to='/support' className='nav-links' onClick={handleClick}>
                 Support
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/HubAI/learning-hub'
+                to='/learning-hub'
                 className='nav-links'
                 onClick={handleClick}
               >
@@ -39,7 +39,7 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/HubAI/library' className='nav-links' onClick={handleClick}>
+              <Link to='/library' className='nav-links' onClick={handleClick}>
                 AI Library
               </Link>
             </li>
