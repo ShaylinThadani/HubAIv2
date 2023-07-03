@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/HubAI/static/css/main.6df99a29.chunk.css",
-    "main.js": "/HubAI/static/js/main.eebb85b5.chunk.js",
-    "main.js.map": "/HubAI/static/js/main.eebb85b5.chunk.js.map",
+    "main.js": "/HubAI/static/js/main.75b23e87.chunk.js",
+    "main.js.map": "/HubAI/static/js/main.75b23e87.chunk.js.map",
     "runtime-main.js": "/HubAI/static/js/runtime-main.5b2e6c1d.js",
     "runtime-main.js.map": "/HubAI/static/js/runtime-main.5b2e6c1d.js.map",
-    "static/js/2.08b0945d.chunk.js": "/HubAI/static/js/2.08b0945d.chunk.js",
-    "static/js/2.08b0945d.chunk.js.map": "/HubAI/static/js/2.08b0945d.chunk.js.map",
+    "static/js/2.9a1dd8e9.chunk.js": "/HubAI/static/js/2.9a1dd8e9.chunk.js",
+    "static/js/2.9a1dd8e9.chunk.js.map": "/HubAI/static/js/2.9a1dd8e9.chunk.js.map",
     "index.html": "/HubAI/index.html",
-    "precache-manifest.b4f8544b6534a931250d29b380010ba9.js": "/HubAI/precache-manifest.b4f8544b6534a931250d29b380010ba9.js",
+    "precache-manifest.ea0a6d29048789932fce7b24ca3fc01d.js": "/HubAI/precache-manifest.ea0a6d29048789932fce7b24ca3fc01d.js",
     "service-worker.js": "/HubAI/service-worker.js",
     "static/css/main.6df99a29.chunk.css.map": "/HubAI/static/css/main.6df99a29.chunk.css.map",
-    "static/js/2.08b0945d.chunk.js.LICENSE.txt": "/HubAI/static/js/2.08b0945d.chunk.js.LICENSE.txt",
+    "static/js/2.9a1dd8e9.chunk.js.LICENSE.txt": "/HubAI/static/js/2.9a1dd8e9.chunk.js.LICENSE.txt",
     "static/media/Imagen.jpg": "/HubAI/static/media/Imagen.01ff060d.jpg",
     "static/media/bard.jpg": "/HubAI/static/media/bard.d8f09977.jpg",
     "static/media/canva.jpg": "/HubAI/static/media/canva.b715ecc6.jpg",
@@ -33,8 +33,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5b2e6c1d.js",
-    "static/js/2.08b0945d.chunk.js",
+    "static/js/2.9a1dd8e9.chunk.js",
     "static/css/main.6df99a29.chunk.css",
-    "static/js/main.eebb85b5.chunk.js"
+    "static/js/main.75b23e87.chunk.js"
   ]
 }
