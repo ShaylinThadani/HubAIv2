@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './CardList.css';
 import CardItem from './CardItem';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
+
 
 function CardList() {
   const [filters, setFilters] = useState([]);
@@ -304,11 +306,14 @@ function CardList() {
           Paid
         </label>
       </div>
-      <div className='card-grid'>
-        {filteredItems.map((card, index) => (
-          <CardItem key={index} src={card.src} text={card.text} url={card.url} />
-        ))}
-      </div>
+      <TransitionGroup className='card-grid'>
+  {filteredItems.map((card, index) => (
+    <CSSTransition key={card.url} timeout={500} classNames='item'>
+      <CardItem src={card.src} text={card.text} url={card.url} />
+    </CSSTransition>
+  ))}
+</TransitionGroup>
+
     </div>
   );
 }
