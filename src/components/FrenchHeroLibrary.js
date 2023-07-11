@@ -5,21 +5,19 @@ import './HeroSection.css';
 
 function HeroLibrary() {
   return (
-    <div className='hero-container' role="banner" aria-label="Our AI Library">
+    <div className='hero-container' role="banner" aria-label="Notre bibliothèque d'IA">
       <video src={require('../videos/video-3.mp4')} autoPlay loop muted />
-      <h1>Our AI Library</h1>
-      <p>Every Tool</p>
-      <p>At Your Fingertips</p>
+      <h1>Notre bibliothèque d'IA</h1>
+      <p>Chaque outil</p>
+      <p>à portée de main</p>
       <Link
         to="#browse"
         smooth={true}
         duration={250}
-        offset={-50} 
+        offset={-50}
         className="scroll-button"
-        role="link"
-        aria-label="Browse"
       >
-       Browse
+        Parcourir
       </Link>
     </div>
   );

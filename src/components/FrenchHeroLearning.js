@@ -5,20 +5,18 @@ import './HeroSection.css';
 
 function HeroLearning() {
   return (
-    <div className='hero-container' role="banner" aria-label="Learning Hub">
+    <div className='hero-container' role="banner" aria-label="Centre d'apprentissage">
       <video src={require('../videos/video-2.mp4')} autoPlay loop muted />
-      <h1>Learning Hub</h1>
-      <p>Unlock AI's Potential</p>
+      <h1>Centre d'apprentissage</h1>
+      <p>Libérez le potentiel de l'IA</p>
       <Link
         to="#lessons"
         smooth={true}
         duration={250}
-        offset={-50} 
+        offset={-50}
         className="scroll-button"
-        role="link"
-        aria-label="Start your Journey"
       >
-       Start your Journey
+        Commencez votre voyage
       </Link>
     </div>
   );

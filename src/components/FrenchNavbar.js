@@ -12,40 +12,41 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar' role="navigation" aria-label="Main Navigation">
+      <nav className='navbar' role="navigation" aria-label="Navigation principale">
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={handleClick}>
+          <Link to='/frenchhome' className='navbar-logo' onClick={handleClick}>
             Hub AI
           </Link>
 
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={handleClick}>
-                Home
+              <Link to='/frenchhome' className='nav-links' onClick={handleClick}>
+              Accueil
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/support' className='nav-links' onClick={handleClick}>
-                Support
+              <Link to='/frenchsupport' className='nav-links' onClick={handleClick}>
+              Soutien
               </Link>
             </li>
+            
             <li className='nav-item'>
               <Link
-                to='/learning-hub'
+                to='/frenchlearning-hub'
                 className='nav-links'
                 onClick={handleClick}
               >
-                Learning Hub
+                Centre d'apprentissage
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/library' className='nav-links' onClick={handleClick}>
-                AI Library
+              <Link to='/frenchlibrary' className='nav-links' onClick={handleClick}>
+              Bibliothèque d'IA
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/frenchHome' className='nav-links' onClick={handleClick}>
-                FR
+              <Link to='/' className='nav-links' onClick={handleClick}>
+                EN
               </Link>
             </li>
           </ul>

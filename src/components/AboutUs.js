@@ -4,12 +4,12 @@ import './AboutUs.css';
 
 function AboutUs() {
   return (
-    <div id="#about-us" className="about-us-container">
+    <div id="#about-us" className="about-us-container" role="region" aria-label="About Us">
       <h1>About Us</h1>
       <div className="about-us-content">
         <div className="mission-journey-container">
           <div className="mission-journey">
-            <h2>For Practice!</h2>
+            <h2>Our Mission</h2>
             <p>
               At Hub AI, our mission is to empower individuals and businesses by providing a comprehensive repository of AI tools and fostering a community that facilitates learning and utilization of these powerful technologies. We believe that by democratizing access to AI resources and knowledge, we can unlock endless possibilities and drive innovation across diverse fields.
             </p>
@@ -21,17 +21,17 @@ function AboutUs() {
             </p>
           </div>
         </div>
-        <div className="stats-container">
-          <div className="stat-box">
+        <div className="stats-container" role="list" aria-label="Statistics">
+          <div className="stat-box" role="listitem">
             <i className="fas fa-toolbox"></i>
             <p className="stat">14 AI tools</p>
           </div>
-          <div className="stat-box">
-            <i class="fas fa-comments"></i>
+          <div className="stat-box" role="listitem">
+            <i className="fas fa-comments"></i>
             <p className="stat">5 Conversational AI Models</p>
           </div>
-          <div className="stat-box">
-          <i class="fas fa-image"></i>
+          <div className="stat-box" role="listitem">
+            <i className="fas fa-image"></i>
             <p className="stat">9 Generative AI Models </p>
           </div>
         </div>
