@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ContactUs.css';
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 function ContactUs() {
   const [name, setName] = useState('');
@@ -26,11 +28,25 @@ function ContactUs() {
       }
     }
   };
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  
+    const isFormValid = event.target.checkValidity();
+  
+    if (isFormValid) {
+      toast.success("Sent!");
+    } else {
+      alert('Please fill out all the required fields.');
+    }
+  
+    event.target.reset();
+  };
 
   return (
     <div id="contact-us" className="contact-us-container">
       <h1>Contact Us</h1>
-      <form className="contact-form">
+      <form className="contact-form" onSubmit={handleSubmit}>
+      <ToastContainer />
         <label htmlFor="name">Name:</label>
         <input
           type="text"
